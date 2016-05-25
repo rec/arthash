@@ -142,7 +142,7 @@ def file_hash(filename, hasher=hashlib.sha256, chunksize=10000000):
             h.update(chunk)
 
 def add_hash_to(fname, **kwds):
-    open(fname + '.sha256', 'w').write(file_hash(fname, **kwds) + '\n')
+    open(fname + '.sha256.txt', 'w').write(file_hash(fname, **kwds) + '\n')
 
 
 if __name__ == '__main__':
