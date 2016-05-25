@@ -1,2 +1,3 @@
 # arthash
-for benton!
+
+hash all the art.
